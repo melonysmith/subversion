@@ -1,0 +1,31 @@
+/* Loader */
+
+body.landing:before,
+body.landing:after {
+    display: none !important;
+}
+
+
+/* Icon */
+
+.icon.alt {
+    color: inherit !important;
+}
+
+.icon.major.alt:before {
+    color: #f1cbbf !important;
+}
+
+
+/* Banner */
+
+#banner:after {
+    background-color: rgba(23, 24, 32, 0.95);
+}
+
+
+/* Footer */
+
+#footer .icons .icon.alt:before {
+    color: #f1cbbf !important;
+}
